@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8"/>
+    <title>Great Lakes Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body background="assets/images/background1.jpg">
+       
+    <div class="container">
+
+        <div class="row title">
+            <div class="col-md-12">
+                <h1>Great Lakes Trivia!</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-danger" id="start">START!</button>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div class="row">
+                <div class="col-md-12">
+                    Time Remaining:
+                    <div id="time"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        1. What is the largest Great Lake?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer1" value="Lake Huron"> Lake Huron
+                        <input type="radio" name="answer1" value="Lake Superior"> Lake Superior
+                        <input type="radio" name="answer1" value="Lake Michigan"> Lake Michigan
+                        <input type="radio" name="answer1" value="Lake Erie"> Lake Erie
+                    </form>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        2. Lake Superior, the largest Great Lake, has how many shipwrecks on record?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer2" value="None"> None
+                        <input type="radio" name="answer2" value="143"> 143
+                        <input type="radio" name="answer2" value="350"> 350
+                        <input type="radio" name="answer2" value="492"> 492
+                    </form>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        3. What is Lake Superior's average temperature?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer3" value="12°F"> 12°F
+                        <input type="radio" name="answer3" value="36°F"> 36°F
+                        <input type="radio" name="answer3" value="45°F"> 45°F
+                        <input type="radio" name="answer3" value="57°F"> 57°F
+                    </form>    
+                </div>
+            </div>        
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        4. Which of the great lakes is the only great lake to be entierly in the United States?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer4" value="Lake Michigan"> Lake Michigan
+                        <input type="radio" name="answer4" value="Lake Superior"> Lake Superior
+                        <input type="radio" name="answer4" value="Lake Erie"> Lake Erie
+                        <input type="radio" name="answer4" value="Lake Ontario"> Lake Ontario
+                    </form>    
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        5. The Great Lakes contain how many islands?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer5" value="700"> 700
+                        <input type="radio" name="answer5" value="2,000"> 2,000
+                        <input type="radio" name="answer5" value="11,000"> 11,000
+                        <input type="radio" name="answer5" value="35,000"> 35,000
+                    </form>    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        6. What is the largest species of fish found in the Great Lakes?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer6" value="Basking Shark"> Basking Shark
+                        <input type="radio" name="answer6" value="Walleye"> Walleye
+                        <input type="radio" name="answer6" value="Blue Whale"> Blue Whale
+                        <input type="radio" name="answer6" value="Lake Sturgeon"> Lake Sturgeon
+                    </form>    
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        7. Which lake contains massive sinkholes that have high levels of sulfur and low amounts of oxygen?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer7" value="Lake Huron"> Lake Huron
+                        <input type="radio" name="answer7" value="Lake Superior"> Lake Superior
+                        <input type="radio" name="answer7" value="Lake Michigan"> Lake Michigan
+                        <input type="radio" name="answer7" value="Lake Erie"> Lake Erie
+                    </form>    
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        8. The Great Lakes contain what percentage of the world's surface fresh water?
+                        <br />
+                        <br />
+                        <input type="radio" name="answer8" value="1%"> 1%
+                        <input type="radio" name="answer8" value="5%"> 5%
+                        <input type="radio" name="answer8" value="7%"> 7%
+                        <input type="radio" name="answer8" value="20%"> 20%
+                    </form>    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-danger" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div class="row">
+                <div class="col-md-12">
+                    All Done!
+                    <br />
+                    <br />
+                    <div id="correct"></div>
+                    <div id="incorrect"></div>
+                    <div id="unanswered"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
+</body>
+</html>

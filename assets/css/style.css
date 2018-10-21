@@ -1,0 +1,17 @@
+.container {
+    margin-top: 30px !important;
+    text-align: center;
+    background-color: lightgray;
+    opacity: .9;
+    font-weight: 900 !important;
+}
+
+h1 {
+    font-weight: 900 !important;
+}
+
+.row {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
